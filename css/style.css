@@ -1,0 +1,177 @@
+.btnTop {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 213, 0);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 100%;
+    font-size: x-large;
+}
+.btnTop a, .btnChat a {
+    text-decoration: none;
+    color: #000000;
+}
+.btnChat {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 213, 0);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    border-radius: 50%;
+    font-size: x-large;
+}
+.testimonial-section, .crew-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.testimonial-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.testimonial-section hr {
+    width: 50px;
+    border: 1px solid black;
+    margin: 0 auto 40px;
+}
+.testimonial-card {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.testimonial-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.testimonial-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.testimonial-card .stars {
+    margin-bottom: 10px;
+}
+.testimonial-card p {
+    font-size: 14px;
+}
+.testimonial-card .quote {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.crew-card img {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.crew1-card img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.btn-custom {
+    background-color: rgb(255, 213, 0);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.btn-custom:hover {
+    background-color: rgb(224, 188, 7);
+}
+.availability {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(255, 213, 0);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.header a {
+    color: rgb(255, 213, 0);
+    font-size: 1rem;
+    text-decoration: none;
+}
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* login */
+.log, .reg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+}
+.login, .regis {
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+.login-header, .regis-header {
+    background-color: rgb(255, 213, 0);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: -60px auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-header i, .regis-header i {
+    color: white;
+    font-size: 30px;
+}
+.form-control {
+    margin-bottom: 15px;
+}
+.btn-login, .btn-register {
+    background-color: rgb(255, 213, 0);
+    color: white;
+    width: 100%;
+}
+.btn-login:hover, .btn-register:hover {
+    background-color: rgb(255, 213, 0);
+}
+.back-to-register, .back-to-login {
+    margin-top: 10px;
+}
+.back-to-register a, .back-to-login a {
+    color: #007bff;
+    text-decoration: none;
+}
+.back-to-register a:hover, .back-to-login a:hover {
+    text-decoration: underline;
+}
